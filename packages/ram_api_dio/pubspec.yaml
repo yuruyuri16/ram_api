@@ -1,0 +1,17 @@
+name: ram_api_dio
+description: A Very Good Project created by Very Good CLI.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dio: ^5.3.0
+  ram_api:
+    path: ../ram_api
+
+dev_dependencies:
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^5.0.0
